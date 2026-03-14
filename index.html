@@ -36,7 +36,9 @@
       <p>
       The main project included in this portfolio is a social media web application
       developed as part of a Scrum team project. The website allows users to create
-      accounts, log in, and share posts with other users.
+      accounts, log in, and share posts with other users. The system stores information using
+      a relational database and retrieves that information when users interact with
+      the application.
       </p>
       
       <hr>
@@ -52,16 +54,17 @@
       
       <h3>Security Practices</h3>
       <p>
-      Input validation and exception handling were used to prevent invalid data
-      from being processed. These practices help protect the application from
-      unexpected errors and improve reliability.
+      The backend of the application processes requests from users and interacts with
+      the database. When a user logs in, creates a post, or views content, the backend
+      retrieves or stores data in the database. This process demonstrates how server
+      logic connects the user interface with stored data.
       </p>
       
       <hr>
       
       <h2>Frontend Programming</h2>
       <p>
-      The frontend of the social media website was developed using HTML and CSS.
+      The frontend of the website was developed using HTML and CSS.
       The interface allows users to interact with the application by creating
       posts, viewing content, and navigating through the site. Designing the user
       interface helped me understand how layout and usability affect the user
@@ -72,17 +75,18 @@
       
       <h2>Relational Database Processing</h2>
       <p>
-      The application used a relational database to store user accounts and posts.
-      MySQL was used to create tables and manage relationships between users and
-      their content. Queries were used to insert new data and retrieve information
-      from the database.
+      A relational database was used to manage and organize user data within the
+      application. The database stores information in multiple tables that are
+      connected using primary and foreign keys. This structure allows the system to
+      store complex relationships between users, posts, and interactions.
       </p>
       
       <h3>Security Practices</h3>
       <p>
-      Database interactions were designed to ensure that only valid data was stored.
-      Proper validation and careful query design help prevent issues such as data
-      corruption or unauthorized access.
+      Security practices were considered when handling user input and database
+      interactions. Input validation ensures that invalid data cannot be submitted
+      through forms. Exception handling helps prevent application crashes and allows
+      errors to be handled safely.
       </p>
       
       <hr>
